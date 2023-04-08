@@ -1,7 +1,8 @@
 name: custom_accordion
-description: A new Flutter package project.
+description: Custom Accordion widget with lots of customization.
 version: 0.0.1
-homepage:
+homepage: https://github.com/zeeshanayaz/custom_accordion
+repository: https://github.com/zeeshanayaz/custom_accordion
 
 environment:
   sdk: '>=2.19.2 <3.0.0'
