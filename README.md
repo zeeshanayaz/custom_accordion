@@ -1,4 +1,4 @@
-[![pub package](https://img.shields.io/pub/v/custom_accordion.svg)](https://pub.dartlang.org/packages/custom_accordion) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://opensource.org/licenses/MIT) [![License](https://img.shields.io/badge/license-MIT-orange.svg)](https://github.com/ionicfirebaseapp/getwidget/blob/master/LICENSE) 
+[![pub package](https://img.shields.io/pub/v/custom_accordion.svg)](https://pub.dartlang.org/packages/custom_accordion) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://opensource.org/licenses/MIT) [![License](https://img.shields.io/badge/license-MIT-orange.svg)](https://github.com/zeeshanayaz/custom_accordion/blob/master/LICENSE) 
 
 # Custom Accordion
 
@@ -14,10 +14,7 @@ Custom Accordion (Expandable) widget with lots of customization.
 
 ## Demo Preview
 
-| |
-| -- |
-| ![](/demo/custom_accordion_example.gif) |
-
+<img src="https://github.com/zeeshanayaz/custom_accordion/raw/master/demo/custom_accordion_example.gif" height="600" />
 
 ## Get Started
 
