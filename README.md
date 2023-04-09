@@ -1,12 +1,25 @@
+[![pub package](https://img.shields.io/pub/v/custom_accordion.svg)](https://pub.dartlang.org/packages/custom_accordion) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://opensource.org/licenses/MIT) [![License](https://img.shields.io/badge/license-MIT-orange.svg)](https://github.com/ionicfirebaseapp/getwidget/blob/master/LICENSE) 
+
 # Custom Accordion
 
 Custom Accordion (Expandable) widget with lots of customization.
+
+## Table of contents 
+- [Demo Preview](#demo-preview)
+- [Get Started](#get-started)
+- [How to use](#how-to-use)
+- [Properties](#properties)
+- [Contributing](#contributing)
+
 
 ## Demo Preview
 
 | |
 | -- |
 | ![](/demo/custom_accordion_example.gif) |
+
+
+## Get Started
 
 ### Add to your project
 ```
@@ -118,3 +131,12 @@ The following properties can be set for the widget.
 | showContent | Make default behaviour of accoordion children visible or hidden | bool | No | false |
 
 
+## Contributing
+
+Custom Accordion is **100% free** and **open source**. We encourage and support an active, healthy community that accepts contributions from the public &ndash; including you. There are a couple of ways in which you can contribute.
+
+  * Fix a bug
+  * Write and improve some **documentation**. Documentation is very critical to us. We would appreciate help in adding multiple languages to our docs.
+  * If you are a developer, feel free to check out the source and submit pull requests.
+  * Dig into [**CONTRIBUTING.MD**](CONTRIBUTING.md), which covers submitting bugs, requesting new features, preparing your code for a pull request, etc.
+  * Please don't forget to **like**, **follow**, and **star our repo**!.
