@@ -2,6 +2,12 @@
 
 Custom Accordion (Expandable) widget with lots of customization.
 
+## Demo Preview
+
+| |
+| -- |
+| ![](/demo/custom_accordion_example.gif) |
+
 ### Add to your project
 ```
 flutter pub add custom_accordion
