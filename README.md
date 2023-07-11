@@ -41,10 +41,16 @@ Accordion with no child
 ```dart
     CustomAccordion(
         title: 'Accordion with no child',
+        subTitle: 'Accordion Sub Title',
         headerBackgroundColor: Colors.blue,
         titleStyle: const TextStyle(
           fontSize: 18,
           fontWeight: FontWeight.bold,
+          color: Colors.white,
+        ),
+        subTitleStyle: const TextStyle(
+          fontSize: 16,
+          fontWeight: FontWeight.normal,
           color: Colors.white,
         ),
         toggleIconOpen: Icons.keyboard_arrow_down_sharp,
@@ -59,10 +65,16 @@ Accordion with one child
 ```dart
     CustomAccordion(
         title: 'Accordion with one child',
+        subTitle: 'Accordion Sub Title',
         headerBackgroundColor: Colors.blue,
         titleStyle: const TextStyle(
           fontSize: 18,
           fontWeight: FontWeight.bold,
+          color: Colors.white,
+        ),
+          subTitleStyle: const TextStyle(
+          fontSize: 16,
+          fontWeight: FontWeight.normal,
           color: Colors.white,
         ),
         toggleIconOpen: Icons.keyboard_arrow_down_sharp,
@@ -106,6 +118,36 @@ Accordion with many child
         ),
 ```
 
+Accordion with List Items and disabled toggle example
+```dart
+        CustomAccordion(
+            title: 'Accordion with List Items',
+            subTitle: 'Accordion toggle disabled',
+            headerBackgroundColor: Colors.blue,
+            titleStyle: const TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+            ),
+            subTitleStyle: const TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.normal,
+              color: Colors.white,
+            ),
+            toggleIconOpen: Icons.keyboard_arrow_down_sharp,
+            toggleIconClose: Icons.keyboard_arrow_up_sharp,
+            headerIconColor: Colors.white,
+            accordionElevation: 0,
+            disableToggle: true,
+            widgetItems: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: List<Widget>.generate(5, (int index) {
+                return Text('Item $index');
+                }),
+            ),
+        ),
+```
+
 Please see example project for code.
 
 
@@ -113,19 +155,22 @@ Please see example project for code.
 
 The following properties can be set for the widget.
 
-|Property|Description|Type|Required|Default value|
-| ---- | ---- | ---- | ---- | ---- |
-| title | Title of Accordion | String | Yes |  |
-| headerBackgroundColor | Header background color | Color | No | Theme.of(context).splashColor |
-| titleStyle | Header text style | TextStyle | No | Theme.of(context).textTheme.titleLarge |
-| toggleIconOpen | Toggle icon to expand/open widgets | IconData | No | Icons.arrow_drop_down |
-| toggleIconClose | Toggle icon to collapse/close widgets | IconData | No | Icons.arrow_drop_up |
-| headerIconColor | Icon Color | Color | No | Theme.of(context).iconTheme.color |
-| backgroundColor | Background color of widget | Color | No | Theme.of(context).cardColor |
-| accordionElevation | Elevation of accordion widget | double | No | Theme.of(context).cardTheme.elevation |
-| widgetItems | Child Widget(s) of accordion | Widget | No | Text() |
-| widgetItemsPadding | Padding arround children of accordion | EdgeInsetsGeometry | No | EdgeInsets.all(10) |
-| showContent | Make default behaviour of accoordion children visible or hidden | bool | No | false |
+| Property              | Description                                                     | Type               | Required | Default value                          |
+|-----------------------|-----------------------------------------------------------------|--------------------|----------|----------------------------------------|
+| title                 | Title of Accordion                                              | String             | Yes      |                                        |
+| subTitle              | Sub Title of Accordion                                          | String             | No       |                                        |
+| headerBackgroundColor | Header background color                                         | Color              | No       | Theme.of(context).splashColor          |
+| titleStyle            | Header text style                                               | TextStyle          | No       | Theme.of(context).textTheme.titleLarge |
+| subTitleStyle         | Sub Title text style                                            | TextStyle          | No       | Theme.of(context).textTheme.titleSmall |
+| toggleIconOpen        | Toggle icon to expand/open widgets                              | IconData           | No       | Icons.arrow_drop_down                  |
+| toggleIconClose       | Toggle icon to collapse/close widgets                           | IconData           | No       | Icons.arrow_drop_up                    |
+| headerIconColor       | Icon Color                                                      | Color              | No       | Theme.of(context).iconTheme.color      |
+| backgroundColor       | Background color of widget                                      | Color              | No       | Theme.of(context).cardColor            |
+| accordionElevation    | Elevation of accordion widget                                   | double             | No       | Theme.of(context).cardTheme.elevation  |
+| widgetItems           | Child Widget(s) of accordion                                    | Widget             | No       | Text()                                 |
+| widgetItemsPadding    | Padding arround children of accordion                           | EdgeInsetsGeometry | No       | EdgeInsets.all(10)                     |
+| showContent           | Make default behaviour of accordion children visible or hidden  | bool               | No       | false                                  |
+| disableToggle         | Make default behaviour of accordion toggle                      | bool               | No       | false                                  |
 
 
 ## Contributing

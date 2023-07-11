@@ -41,10 +41,16 @@ class _HomePageState extends State<HomePage> {
             ),
             CustomAccordion(
               title: 'Accordion with no child',
+              subTitle: 'Accordion Sub Title',
               headerBackgroundColor: Colors.blue,
               titleStyle: const TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
+                color: Colors.white,
+              ),
+              subTitleStyle: const TextStyle(
+                fontSize: 16,
+                fontWeight: FontWeight.normal,
                 color: Colors.white,
               ),
               toggleIconOpen: Icons.keyboard_arrow_down_sharp,
@@ -55,10 +61,16 @@ class _HomePageState extends State<HomePage> {
             ),
             CustomAccordion(
               title: 'Accordion with one child',
+              subTitle: 'Accordion Sub Title',
               headerBackgroundColor: Colors.blue,
               titleStyle: const TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
+                color: Colors.white,
+              ),
+              subTitleStyle: const TextStyle(
+                fontSize: 16,
+                fontWeight: FontWeight.normal,
                 color: Colors.white,
               ),
               toggleIconOpen: Icons.keyboard_arrow_down_sharp,
@@ -99,16 +111,23 @@ class _HomePageState extends State<HomePage> {
             ),
             CustomAccordion(
               title: 'Accordion with List Items',
+              subTitle: 'Accordion toggle disabled',
               headerBackgroundColor: Colors.blue,
               titleStyle: const TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
               ),
+              subTitleStyle: const TextStyle(
+                fontSize: 16,
+                fontWeight: FontWeight.normal,
+                color: Colors.white,
+              ),
               toggleIconOpen: Icons.keyboard_arrow_down_sharp,
               toggleIconClose: Icons.keyboard_arrow_up_sharp,
               headerIconColor: Colors.white,
               accordionElevation: 0,
+              disableToggle: true,
               widgetItems: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: List<Widget>.generate(5, (int index) {
