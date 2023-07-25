@@ -36,9 +36,12 @@ class _HomePageState extends State<HomePage> {
       body: SingleChildScrollView(
         child: Column(
           children: [
+            /// Basic Accordion
             CustomAccordion(
               title: 'Accordion',
             ),
+
+            /// Accordion with no child
             CustomAccordion(
               title: 'Accordion with no child',
               subTitle: 'Accordion Sub Title',
@@ -59,6 +62,8 @@ class _HomePageState extends State<HomePage> {
               accordionElevation: 0,
               showContent: true,
             ),
+
+            /// Accordion with one child
             CustomAccordion(
               title: 'Accordion with one child',
               subTitle: 'Accordion Sub Title',
@@ -81,6 +86,8 @@ class _HomePageState extends State<HomePage> {
                 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
               ),
             ),
+
+            /// Accordion with many children
             CustomAccordion(
               title: 'Accordion with many children',
               headerBackgroundColor: Colors.blue,
@@ -109,6 +116,8 @@ class _HomePageState extends State<HomePage> {
                 ],
               ),
             ),
+
+            /// Accordion with List Items and Toggle Disabled
             CustomAccordion(
               title: 'Accordion with List Items',
               subTitle: 'Accordion toggle disabled',
