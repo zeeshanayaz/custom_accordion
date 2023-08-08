@@ -182,3 +182,11 @@ Custom Accordion is **100% free** and **open source**. We encourage and support 
   * If you are a developer, feel free to check out the source and submit pull requests.
   * Dig into [**CONTRIBUTING.MD**](CONTRIBUTING.md), which covers submitting bugs, requesting new features, preparing your code for a pull request, etc.
   * Please don't forget to **like**, **follow**, and **star our repo**!.
+
+## Support the package (optional)
+
+If you find this package useful, you can support it for free by giving it a **thumbs up** at the top of this page.
+
+## Bugs or Requests
+
+If you encounter any problems feel free to open an [issue](https://github.com/zeeshanayaz/custom_accordion/issues/new?template=bug_report.md). If you feel the library is missing a feature, please raise a [ticket](https://github.com/zeeshanayaz/custom_accordion/issues/new?template=feature_request.md). Pull request are also welcome.

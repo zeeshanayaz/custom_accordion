@@ -1,6 +1,6 @@
 name: custom_accordion
-description: Custom Accordion widget with lots of customization. The Custom Accordion package allows to create Expandable Flutter widget where each item or list of items can be expanded or collapsed simply by clicking on the header.
-version: 0.0.4
+description: The Custom Accordion package allows to create Expandable Flutter widget where each item or list of items can be expanded or collapsed simply by clicking on the header.
+version: 0.0.5
 homepage: https://github.com/zeeshanayaz/custom_accordion
 repository: https://github.com/zeeshanayaz/custom_accordion
 
