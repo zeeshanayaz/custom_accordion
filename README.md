@@ -19,6 +19,13 @@ Custom Accordion (Expandable) widget with lots of customization.
 ## Get Started
 
 ### Add to your project
+```yaml
+dependencies:
+  custom_accordion: ^version
+```
+
+or simply run the command in your terminal at project root directory
+
 ```
 flutter pub add custom_accordion
 ```
@@ -173,20 +180,27 @@ The following properties can be set for the widget.
 | disableToggle         | Make default behaviour of accordion toggle                      | bool               | No       | false                                  |
 
 
-## Contributing
+## Contribution
+🚀 We believe in the power of collaboration and welcome contributions from our amazing community to make **Custom Accordion** even more awesome!
 
-Custom Accordion is **100% free** and **open source**. We encourage and support an active, healthy community that accepts contributions from the public &ndash; including you. There are a couple of ways in which you can contribute.
+Whether you're a developer, designer, or just an enthusiast, you can contribute in various ways:
 
-  * Fix a bug
-  * Write and improve some **documentation**. Documentation is very critical to us. We would appreciate help in adding multiple languages to our docs.
-  * If you are a developer, feel free to check out the source and submit pull requests.
-  * Dig into [**CONTRIBUTING.MD**](CONTRIBUTING.md), which covers submitting bugs, requesting new features, preparing your code for a pull request, etc.
-  * Please don't forget to **like**, **follow**, and **star our repo**!.
+* 💡 Feature Ideas: Have a cool feature in mind? Share your ideas with us. We love fresh perspectives!
+* 🐛 Bug Reports: Spotted a bug? Let us know! Help us squash those pesky little critters.
+* 📖 Documentation: Improve our documentation. Clear and concise docs make a world of difference.
+* 🛠 Code Contributions: If you're a developer, dive into the codebase. Tackle open issues or implement new features.
+* 💬 Community Support: Share your knowledge! Help others by answering questions and engaging in discussions.
+* ✏️ Design: If you have design skills, contribute by enhancing our UI/UX.
+
+Dig into [**CONTRIBUTING.MD**](CONTRIBUTING.md), which covers submitting bugs, requesting new features, preparing your code for a pull request, etc.
+
+Please don't forget to **like**, **follow**, and **star our repo**!.
 
 ## Support the package (optional)
-
 If you find this package useful, you can support it for free by giving it a **thumbs up** at the top of this page.
 
 ## Bugs or Requests
-
 If you encounter any problems feel free to open an [issue](https://github.com/zeeshanayaz/custom_accordion/issues/new?template=bug_report.md). If you feel the library is missing a feature, please raise a [ticket](https://github.com/zeeshanayaz/custom_accordion/issues/new?template=feature_request.md). Pull request are also welcome.
+
+## License
+This package is available under the **MIT License**.
