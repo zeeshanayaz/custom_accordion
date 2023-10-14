@@ -1,20 +1,37 @@
-[![pub package](https://img.shields.io/pub/v/custom_accordion.svg)](https://pub.dartlang.org/packages/custom_accordion) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://opensource.org/licenses/MIT) [![License](https://img.shields.io/badge/license-MIT-orange.svg)](https://github.com/zeeshanayaz/custom_accordion/blob/master/LICENSE) 
+<p align="center">
+
+  <a href="https://github.com/minikin/popover">
+    <img src="https://img.shields.io/badge/platforms-iOS%20%7C%20macOS%20%7C%20Android%20%7C%20Linux%20%7C%20Windows%20%7C%20Web-green.svg" alt="Supported platforms" />
+  </a>
+  <br>
+  <a href="https://pub.dartlang.org/packages/custom_accordion">
+    <img src="https://img.shields.io/pub/v/custom_accordion.svg" alt="Pub package version." />
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=102" alt="Open Source Love." />
+  </a>
+  <a href="https://github.com/minikin/popover/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Popover is released under the MIT license." />
+  </a>
+</p>
 
 # Custom Accordion
 
-Custom Accordion (Expandable) widget with lots of customization.
+Create dynamic, interactive, and visually appealing accordions in your Flutter app with ease using the "Custom Accordion" package. This powerful library simplifies the process of adding collapsible sections to your UI, making it a breeze to manage and customize accordions to suit your design and functionality needs.
 
 ## Table of contents 
 - [Demo Preview](#demo-preview)
 - [Get Started](#get-started)
 - [How to use](#how-to-use)
 - [Properties](#properties)
-- [Contributing](#contributing)
+- [Contribution](#contribution)
 
 
 ## Demo Preview
 
-<img src="https://github.com/zeeshanayaz/custom_accordion/raw/master/demo/custom_accordion_example.gif" height="600" />
+<div style="display: flex; justify-content: center;" >
+  <img src="https://github.com/zeeshanayaz/custom_accordion/raw/master/demo/custom_accordion_example.gif" style="width: 50%;"/>
+</div>
 
 ## Get Started
 
