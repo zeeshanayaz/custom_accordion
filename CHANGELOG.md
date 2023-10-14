@@ -1,9 +1,10 @@
-## 0.0.5
+## 1.0.0
+* Documentation updated
 
+## 0.0.5
 * Documentation updated
 
 ## 0.0.4
-
 * Documentation updated
 
 ## 0.0.3
@@ -12,9 +13,7 @@
 * handled toggle functionality as disableToggle
 
 ## 0.0.2
-
 * Demo preview added in documentation.
 
 ## 0.0.1
-
 * initial release.
