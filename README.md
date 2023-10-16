@@ -1,6 +1,6 @@
 <p align="center">
 
-  <a href="https://github.com/minikin/popover">
+  <a href="https://github.com/zeeshanayaz/custom_accordion/">
     <img src="https://img.shields.io/badge/platforms-iOS%20%7C%20macOS%20%7C%20Android%20%7C%20Linux%20%7C%20Windows%20%7C%20Web-green.svg" alt="Supported platforms" />
   </a>
   <br>
@@ -10,8 +10,8 @@
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=102" alt="Open Source Love." />
   </a>
-  <a href="https://github.com/minikin/popover/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Popover is released under the MIT license." />
+  <a href="https://github.com/zeeshanayaz/custom_accordion/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Custom Accordion is released under the MIT license." />
   </a>
 </p>
 
@@ -220,4 +220,4 @@ If you find this package useful, you can support it for free by giving it a **th
 If you encounter any problems feel free to open an [issue](https://github.com/zeeshanayaz/custom_accordion/issues/new?template=bug_report.md). If you feel the library is missing a feature, please raise a [ticket](https://github.com/zeeshanayaz/custom_accordion/issues/new?template=feature_request.md). Pull request are also welcome.
 
 ## License
-This package is available under the **MIT License**.
+This package is available under the [**MIT License**](https://github.com/zeeshanayaz/custom_accordion/blob/master/LICENSE).
